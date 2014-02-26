@@ -1,0 +1,8 @@
+{
+  "name": "code_activity",
+  "description": "Employment Code Exam",
+  "dependencies": {
+    "express": "",
+    "http": ""
+  }
+}
