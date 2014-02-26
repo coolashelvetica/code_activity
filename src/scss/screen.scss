@@ -11,14 +11,77 @@ body, html {
 	height: 100%;
 }
 
+body {
+	background: url('../img/stardust.png');
+}
+#welcome {
+	padding: 30px;
+	position: relative;
+	margin: 0 auto;
+	top: 20%;
+	background: #fff;
+	width: 50%;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: 100;
+	line-height: 1.5em;
+
+	h1 {
+		font-size: 1.5em;
+		font-weight: 400;
+		padding: 10px 0;
+		color: #2bbbff;
+	}
+
+	 ul {
+		list-style: initial;
+		padding: 20px;
+		font-size: 0.9em;
+	}
+
+	.okay {
+		margin: 0 auto;
+		display: block;
+		background: #2bbbff;
+		border: 0;
+		padding: 20px;
+		text-transform: uppercase;
+		color: #fff;
+		font-size: 1em;
+		cursor: pointer;
+
+		&:hover {
+			background: #25A6E2;
+		}
+	}
+
+}
 #greetingContainer {
 	width: 100%;
 	height: 100%;
+
+	.greeting {
+	  	padding: 20px;
+	  	color: #fff;
+		position: absolute;
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 1.5em;
+		font-weight: 100;
+		cursor: pointer;
+		text-align: center;
+		min-width: 150px;
+		min-height: 150px;
+		.translation {
+			cursor: default;
+			font-size: 0.6em;
+			font-style: italic;
+			color: #2bbfff;
+			padding: 5px;
+			display: none;
+		}
+
+		&:hover {
+			color: #2bbbff;
+		}
+	}
 }
-.greeting {
-  width: 100px;
-  height: 100px;
-  min-width: 50px;
-  min-height: 50px;
-  position: absolute;
-}
+
